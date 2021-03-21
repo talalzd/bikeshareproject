@@ -1,1 +1,3 @@
-- Created a pro
+- Created a repo a local repo
+- Created a remote repo
+- The name of the python file to run is python.py
