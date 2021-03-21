@@ -21,7 +21,7 @@ def get_filters():
 
 
     while True:
-      city = input("\nPlease choose your city of preference, New York City, Chicago or Washington? Please note that input is case sensetive.\n")
+      city = input("\nPlease choose any of the following cities: New York City, Chicago or Washington? Please note that input is case sensetive.\n")
       if city not in ('New York City', 'Chicago', 'Washington'):
         print("Sorry, make sure you captilaize the first letter. Try again.")
         continue
@@ -31,7 +31,7 @@ def get_filters():
     # TO DO: get user input for month (all, january, february, ... , june)
 
     while True:
-      month = input("\nWhich month would you like to filter by? January, February, March, April, May, June or type 'all'. Please note that input is case sensetive.\n")
+      month = input("\Provide a month would you like to filter by? January, February, March, April, May, June or type 'all'. Please note that input is case sensetive.\n")
       if month not in ('January', 'February', 'March', 'April', 'May', 'June', 'all'):
         print("Sorry, make sure you captilaize the first letter. Try again..")
         continue
